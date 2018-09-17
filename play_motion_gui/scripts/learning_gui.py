@@ -14,7 +14,7 @@ from play_motion_msgs.msg import PlayMotionAction, PlayMotionGoal
 from actionlib import SimpleActionClient
 from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
 from controller_manager_msgs.srv import ListControllers, ListControllersRequest, ListControllersResponse
-from simple_learning.srv import Learn, LearnRequest, LearnResponse
+from play_motion_msgs.srv import Learn, LearnRequest, LearnResponse
 from control_mode_management import change_to_controller
 from copy import deepcopy
 import yaml
