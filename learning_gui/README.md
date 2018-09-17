@@ -43,7 +43,7 @@ $ export ROS_MASTER_URI=http://tiago-Xc:11311
 $ rosrun learning_gui learning_gui.py
 ```
 and the following GUI will show up:
-![capture](learning_gui_gripper.png)
+![capture](resources/learning_gui_gripper.png)
 
 #### Select joints
 
@@ -61,7 +61,7 @@ There are two ways of recording the new motion:
 * Continuous recording
 * Waypoint recording
 
-![capture](recording_modes.jpg)
+![capture](resources/recording_modes.jpg)
 
 In the _Continuous recording_ mode the **/joint_states** topic is stored continuously while in the _waypoint recording_ mode the user specifies at what instants of time the values in the **/joint_states** topic are recorded. 
 
@@ -87,7 +87,7 @@ Move the upper body to the first desired kinematic configuration by using the sl
 
 Note that after pressing the ***STOP RECORDING*** button the following part of the GUI which was disabled will be ready to be used:
 
-![capture](play_back_and_export_options.png)
+![capture](resources/play_back_and_export_options.png)
 
 There are three different buttons to play back the recorded motion:
 * Play 0.5X: plays back the motion at half the speed
