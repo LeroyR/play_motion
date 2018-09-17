@@ -10,7 +10,7 @@ Created on 06/05/16
 import rospy
 from simple_learn import JointStateRecorder, MotionGenerator
 #from std_srvs.srv import Empty, EmptyRequest, EmptyResponse
-from simple_learning.srv import Learn, LearnRequest, LearnResponse
+from play_motion_msgs.srv import Learn, LearnRequest, LearnResponse
 import yaml
 
 

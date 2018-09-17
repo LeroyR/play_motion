@@ -2,7 +2,7 @@
 <package>
   <name>learning_gui</name>
   <version>0.0.0</version>
-  <description>The learning_gui package</description>
+  <description>The play_motion_gui package</description>
 
   <author email="sam.pfeiffer@pal-robotics.com">Sam Pfeiffer</author>
   <maintainer email="sam.pfeiffer@pal-robotics.com">Sam Pfeiffer</maintainer>

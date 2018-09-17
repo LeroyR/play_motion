@@ -9,23 +9,6 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
 )
 
-
-################################################
-## Declare ROS messages, services and actions ##
-################################################
-
-## Generate services in the 'srv' folder
-add_service_files(
-  FILES
-  Learn.srv
-)
-
-
-## Generate added messages and services with any dependencies listed here
-generate_messages(
-  DEPENDENCIES
-)
-
 ###################################
 ## catkin specific configuration ##
 ###################################
