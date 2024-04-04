@@ -29,11 +29,11 @@ class IsAlreadyThere:
             if joint_name not in self.joint_states:
                 rospy.logdebug("could not find state of joint {}".format(joint_name))
                 return False
-            if abs(motion['points'][0]['positions'][i]
+            if abs(motion['points'][-1]['positions'][i]
                    - self.joint_states[joint_name]) > data.tolerance:
                 rospy.logdebug("tolerance exceeded fot joint {}, {} vs {}"
                               .format(joint_name,
-                                      motion['points'][0]['positions'][i],
+                                      motion['points'][-1]['positions'][i],
                                       self.joint_states[joint_name]))
                 return False
         return True
